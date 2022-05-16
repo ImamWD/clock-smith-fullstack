@@ -1,0 +1,63 @@
+
+.product
+{
+    padding-top: 150px;
+}
+.by-now-button
+{
+    background-color: var(--main-color);
+    padding: 10px 51px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    border: white solid 1px;
+    border-radius: 1rem;
+    transition: all .3s;
+    margin-top: 40px;
+}
+.by-now-button:hover
+{
+    background-color: #404040;
+    color: var(--main-color);
+}
+.product-name
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--color-black);
+}
+.product-salary
+{
+    color: var(--main-color);
+    transition: all .3s;
+    margin-bottom: 30px;
+}
+.product-salary:hover
+{
+    color: var(--color-black);
+}
+.product-dis
+{
+    margin-bottom: 20px;
+}
+#input-number
+{
+    height: 7vh;
+    margin-bottom: 20px;
+    width: 100px;
+}
+#plus button,#minus button
+{
+    width: 30px;
+    height: 7vh;
+    box-sizing: border-box;
+    color:var(--main-color);
+    background-color: var(--gray-color);
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+

@@ -1,0 +1,18 @@
+.img-item
+{
+    transition: all .5s;
+}
+.img-item:hover
+{
+    animation: rot alternate 1.5s;
+}
+@keyframes rot {
+    0%
+    {
+        transform: rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateY(360deg);
+    }
+}
